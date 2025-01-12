@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-h2 {
+h1 {
   background-color: black;
   color: #fff;
   height: 5rem;
@@ -41,6 +41,23 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
-  font-size: 30px;
+  font-size: 2rem;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 4rem;
+  font-weight: 100;
+}
+.msg-container {
+  margin-top: 3rem;
+}
+#msg {
+  background-color: black;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
 }
